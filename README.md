@@ -110,7 +110,7 @@ python src/infer_batch.py \
     --temperature 0.5
 ```
 
-## WebGen-RL (Step-GRPO with Screenshot and GUI-agent Feedback)
+## Step-GRPO with Screenshot and GUI-agent Feedback (WebGen-RL)
 
 For Step-GRPO with Screenshot and GUI-agent Feedback training, please refer to the [WebGen-RL README](WebGen-RL/README.md).
 
