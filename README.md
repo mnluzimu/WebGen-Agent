@@ -73,7 +73,9 @@ WebGen-Agent/
 
 ## Running Inference
 
-Before running inference, you should rename `.env.template` to `.env` and set the base urls and api keys for the agent-engine LLM and feedback VLM. They can be obtained from any openai-compatible providers such as [openrouter](https://openrouter.ai/), [modelscope](https://www.modelscope.cn/my/overview), [bailian](https://bailian.console.aliyun.com/#/home), and [llmprovider](https://llmprovider.ai/). You can also deploy open-source VLMs and LLMs by running `src/scripts/deploy_qwenvl_32b.sh` and `src/scripts/deploy.sh`. You can find example scripts for single inference and batch inference at `src/scripts/infer_single.sh` and `src/scripts/infer_batch.sh`.
+Before running inference, you should rename `.env.template` to `.env` and set the base urls and api keys for the agent-engine LLM and feedback VLM. They can be obtained from any openai-compatible providers such as [openrouter](https://openrouter.ai/), [modelscope](https://www.modelscope.cn/my/overview), [bailian](https://bailian.console.aliyun.com/#/home), and [llmprovider](https://llmprovider.ai/).
+
+You can also deploy open-source VLMs and LLMs by running `src/scripts/deploy_qwenvl_32b.sh` and `src/scripts/deploy.sh`. Scripts for single inference and batch inference can be found at `src/scripts/infer_single.sh` and `src/scripts/infer_batch.sh`.
 
 ### Single Inference
 
