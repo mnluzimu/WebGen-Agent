@@ -3,5 +3,3 @@ workspaces_root
 env
 service_logs
 *.pyc
-data
-workspaces_root_bt
