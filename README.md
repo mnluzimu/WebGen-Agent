@@ -110,6 +110,10 @@ python src/infer_batch.py \
     --temperature 0.5
 ```
 
+### WebGen-Bench Evaluation
+
+The WebGen-Bench evaluation script is in [run_ui_eval_with_answer.sh](https://github.com/mnluzimu/WebGen-Bench/blob/main/src/ui_test_webgen/run_ui_eval_with_answer.sh). For details of the WebGen-Bench dataset, see [WebGen-Bench](https://github.com/mnluzimu/WebGen-Bench).
+
 ## Step-GRPO with Screenshot and GUI-agent Feedback (WebGen-RL)
 
 For Step-GRPO with Screenshot and GUI-agent Feedback training, please refer to the [WebGen-RL README](WebGen-RL/README.md).
