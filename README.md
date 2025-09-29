@@ -1,6 +1,6 @@
 # WebGen-Agent
 
-WebGen-Agent is an advanced website generation agent designed to autonomously create websites from natural language instructions. This repository contains both inference code for running the agent and training code for the Step-GRPO with Screenshot and GUI-agent Feedback approach. It is an official implementation of the paper [WebGen-Agent: Enhancing Interactive Website Generation with Multi-Level Feedback and Step-Level Reinforcement Learning](paper/WebGen_Agent.pdf)
+WebGen-Agent is an advanced website generation agent designed to autonomously create websites from natural language instructions. This repository contains both inference code for running the agent and training code for the Step-GRPO with Screenshot and GUI-agent Feedback approach. It is an official implementation of the paper [WebGen-Agent: Enhancing Interactive Website Generation with Multi-Level Feedback and Step-Level Reinforcement Learning](https://arxiv.org/pdf/2509.22644)
 
 ## Project Overview
 
@@ -148,6 +148,16 @@ WebGen-Agent follows an iterative, multi-step paradigm for website generation:
 If you find our project useful, please cite:
 
 ```
+@misc{lu2025webgenagentenhancinginteractivewebsite,
+      title={WebGen-Agent: Enhancing Interactive Website Generation with Multi-Level Feedback and Step-Level Reinforcement Learning}, 
+      author={Zimu Lu and Houxing Ren and Yunqiao Yang and Ke Wang and Zhuofan Zong and Junting Pan and Mingjie Zhan and Hongsheng Li},
+      year={2025},
+      eprint={2509.22644},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.22644}, 
+}
+
 @misc{lu2025webgenbenchevaluatingllmsgenerating,
       title={WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional Websites from Scratch}, 
       author={Zimu Lu and Yunqiao Yang and Houxing Ren and Haotian Hou and Han Xiao and Ke Wang and Weikang Shi and Aojun Zhou and Mingjie Zhan and Hongsheng Li},
